@@ -1,0 +1,352 @@
+@media screen and (max-width:700px){
+  #navpress, #lab, #lab span {
+    display: inline-block;
+  }
+  #menu1 div{
+    display: inline-block;
+    margin:  auto;
+    border-bottom: none; 
+    
+  }
+
+  .nav-con{
+  position: absolute;
+  right:  30px;
+  top: 30px;
+  padding: 2px;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2;
+  }
+
+  .nav-con, .nav-con input{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+  }
+
+  .nav-con input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .nav-con label span{
+    display: none !important;
+  }
+
+  .nav-con label div{
+    height: 2px;
+    width: 30px;
+    border-radius: 30%;
+    background-color: #dacfcf;
+    margin: 5px 0px ;
+    z-index: 3;
+    -webkit-transform-origin: 4px 0px;  
+    -ms-transform-origin: 4px 0px;  
+    transform-origin: 4px 0px;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  .nav-con a, .nav-con li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -2px;
+  }
+
+
+  .nav-con li{
+    padding: 10px;
+    z-index: 2;
+  }
+.nav-con li a{
+  min-width: 30vw;
+  font-size: 50%;
+  text-align: center;
+}
+  /* Change the color of the hamburger when toggled */
+
+  .nav-con input:checked ~ label div{
+    background:#aedeec;
+    z-index: 3;
+    
+  }
+  .nav-con input:checked ~ label {
+    display: block;
+    height:25px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 3;
+    
+  }
+
+  /* Use absolute positioning to place the menu off-screen */
+
+
+  #menu1{
+    display: block;
+    position: fixed;
+    min-height: 100vh;
+    width: 35vw ;
+    padding-top: 40px;
+    /* Hide the menu off-screen to the top */
+    top: -800px;
+    left: 10px;
+
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 1.5s ease;
+    border-bottom: 1px solid   rgb(84, 146, 161);  
+    background-color: rgba(85, 133, 139, 0.87);
+    list-style-type: none;
+    z-index: -1;
+    
+  }
+
+  .nav-con input:checked ~ #menu1 {
+    top: 0%;
+  }
+
+  #submenu1{
+  position: absolute;
+    width: 36%;
+    z-index: 5;
+  }
+  .nav-con input:checked{
+    display: block;
+    position: fixed;
+    top: 0;
+    right:  0;
+    width:60vw ;
+    height: 100vh;
+    opacity: 0;
+    z-index: 8;
+  }
+  .my-btn{
+    width: 10vw;
+  }
+  
+  .top-header h1, .low-header h1{
+    font-size: 19vw;
+    line-height: 100%;
+    
+  }
+
+  .top-header h1{
+    margin-top:0px;
+    width: 90%;
+  }
+
+  .top-header h1 span{
+    display: inline-block;
+  }
+
+
+  .top-header h3, .low-header h3{
+    padding: 10px 20px;
+    font-size: 5vw;
+  }
+  .top-header a, .low-header a{
+    font-size: 3vw;
+    margin: 10px auto 0 auto;
+    min-height: 20px;
+    min-width: 30vw;
+  }
+
+  .skills{
+    min-height: 250vh;
+  }
+  .skill > div{
+    margin: 50px  auto;
+    height: 400px;
+    width: fit-content;
+  }
+
+  /* .skill (class) = div for enclosing the item img and text */
+
+  /* .skill-item{
+  
+  } */
+  
+  .skill{
+    display: block
+  }
+
+  .skill-item h3{
+    font-size:200% ;
+    height: 60px;
+    line-height: 90%;
+  }
+  
+  /* .des{
+    padding: 0 10px;
+  }
+   */
+  /* SI(class) = skill item, for sizing the image and text of the skills card */
+  .SI{
+    
+    font-size: 13px;
+    line-height: 20px;
+  }
+  /* .SI img{
+  
+  } */
+  
+  .skill-item:hover{
+    transform: scale(1.1);
+    margin: 50px 50px;
+  }
+
+
+  .about{
+    display: block;
+    /* flex-wrap: wrap; */
+    padding-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+
+  .about1{
+    width: 90%;
+    margin: auto;
+    min-height: fit-content;
+        
+  }
+  .about1 img{
+    width:50%;
+    height: 50%;
+    border-radius: 50% ;
+    border-bottom:5px groove;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  .about2{
+    width: 90%;
+    margin: auto;
+    font-size: 11px;
+    border-left: 2px solid #66b4b4;
+    
+  }
+  .about2 > p{
+    padding: 2px 20px;
+  }
+
+
+
+
+  .p-container{
+    width: 90%;
+  }
+    
+  .bg1{
+    background-image: url("../images/b1a.jpg");
+    background-repeat: no-repeat;
+    }
+    
+    .bg2{
+    background-image: url("../images/b2a.jpg");
+    background-repeat: no-repeat;
+    } 
+  
+
+  .p-container > div:last-of-type a{
+    min-height: 30px;
+    width: 75%;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .low-header h1{
+    margin: 5px;
+    font-size:  3rem;
+  }
+  .low-header h3{
+    font-size: 1rem;
+  }
+
+  .margin-space{
+    width:100%;
+   
+    }
+    .low-header .my-btn{
+      margin: 0;
+      display: inline-block;
+      
+    }
+    .low-header a:nth-last-child(even){
+      padding: 4px;
+      margin: 20px auto 0 auto;
+      display: block;
+    }
+    .low-header a:nth-last-child(odd){
+      padding: 4px;
+      margin: 0 auto 0 auto;
+      display: block;
+  }
+
+  .low-header > p{
+    font-size: 1.4rem;
+    margin: 0 5px;
+    min-height: 100px;
+    line-height: 25px;
+  }
+
+  .cert-pushin{
+    color: rgb(110, 32, 30);
+    text-shadow:  0px 0px 3px  rgb(235, 235, 235);
+  }
+
+
+
+  footer{
+    background-color:#010e0f  ;
+    min-height: 300px;
+  }
+  .footer{
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  footer a {
+    align-self: center;
+    margin: 40px;
+  }
+  .carousel .carousel-item h2 {
+    font-size: 100%; 
+    width: 40vw;
+    text-shadow:  1px 1px 1px  rgb(230, 228, 228);
+    color: #000;
+  }
+  
+  .carousel .carousel-item img {
+    
+    height: 100%;
+    width:50% ;
+    
+  }
+  
+  .carousel .carousel-item .carousel-caption{
+    
+    left: 40%;
+    width:40vw ;
+    color: #020e0c;
+    font-weight: bolder;
+    text-shadow:  0px 0px 1px  rgb(230, 228, 228);
+}
+.FC{
+  min-width:260px ;
+  max-width:260px ;
+  padding: 1%;
+
+}
+.g-iframe{
+  height:115%;
+}
+}
