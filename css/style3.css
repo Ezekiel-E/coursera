@@ -95,12 +95,12 @@
     width: 35vw ;
     padding-top: 40px;
     /* Hide the menu off-screen to the top */
-    top: -800px;
+    top: -1800px;
     left: 10px;
 
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 1.5s ease;
+    transition: all 0.5s ease;
     border-bottom: 1px solid   rgb(84, 146, 161);  
     background-color: rgba(85, 133, 139, 0.87);
     list-style-type: none;
