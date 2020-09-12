@@ -1,4 +1,4 @@
-@media screen and (max-width:700px){
+  @media screen and (max-width:700px){
   #navpress, #lab, #lab span {
     display: inline-block;
   }
@@ -49,9 +49,9 @@
     -webkit-transform-origin: 4px 0px;  
     -ms-transform-origin: 4px 0px;  
     transform-origin: 4px 0px;
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
   }
   .nav-con a, .nav-con li{
     text-decoration: none;
@@ -341,12 +341,12 @@
     text-shadow:  0px 0px 1px  rgb(230, 228, 228);
 }
 .FC{
-  min-width:260px ;
-  max-width:260px ;
+  min-width:200px ;
+  max-width:200px ;
   padding: 1%;
 
 }
 .g-iframe{
-  height:115%;
+  height:125%;
 }
 }

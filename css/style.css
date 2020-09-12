@@ -9,7 +9,7 @@
   --OM-shadow:#252424;
   --skillBack: #f5ffff;
   --blue:rgb(79, 145, 172);
-
+  overflow-x: hidden;
 }
 /* Global settings  */
 html{
@@ -80,13 +80,15 @@ h2{
   position: absolute;
   top: 0; 
   left: 0;
+}
+.top-nav-bar.others{
+  height: 60px;
   background:url("../images/bgimage.jpg") ;
   background-blend-mode:multiply;
   background-color: var(--darkBlend);
   background-repeat: no-repeat; 
   background-size: cover;
 }
-
 #navpress, #lab, #lab span {
   display: none;
 }
@@ -620,12 +622,11 @@ footer a p:nth-of-type(1) {
   min-width:600px ;
   max-width:600px ;
   overflow: hidden;
-  background-color: ;
   height: 700px;
   padding: 3%;
   padding-top: 100px;
   border-right:#b1d3c2 10px;
-  margin: auto;
+  margin: 10vh auto;
 
 }
 
@@ -643,7 +644,7 @@ footer a p:nth-of-type(1) {
 }
 
 .v-long > div > img{
-  margin: 10vw;
+  margin: 10vh 10vw;
    
 }
 .v-long > div:nth-of-type(1) > img{
