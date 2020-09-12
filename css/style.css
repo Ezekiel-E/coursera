@@ -22,6 +22,7 @@ html{
 }
 
 body{
+  width: 100vw;
   overflow-x: hidden;
 }
 body::before {
@@ -30,7 +31,8 @@ body::before {
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
   z-index: -1;
   background: #ee8b64;
   background-image: url("../images/pic.jpg");
