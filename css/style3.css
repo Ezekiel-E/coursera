@@ -6,7 +6,7 @@
     display: block;
   }
 
-  #menu1 span{
+  #menu1 div{
     display: inline-block;
     margin:  auto;
     border-bottom: none; 
@@ -58,18 +58,19 @@
     -o-transition: all .5s ease;
     transition: all .5s ease;
   }
-  .nav-con a, .nav-con li{
+  .nav-con a, .nav-con i{
     text-decoration: none;
     list-style: none;
     margin-left: -2px;
   }
+  
 
 
-  .nav-con li{
+  .nav-con i{
     padding: 10px;
     z-index: 2;
   }
-.nav-con li a{
+.nav-con i a{
   min-width: 30vw;
   font-size: 50%;
   text-align: center;

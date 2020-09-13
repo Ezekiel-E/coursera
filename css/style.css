@@ -12,6 +12,9 @@
   overflow-x: hidden;
 }
 /* Global settings  */
+i{
+  font-style: normal;
+}
 code{
   color: #ff0000;
 }
@@ -95,7 +98,8 @@ h2{
 #navpress, #lab, #lab span {
   display: none;
 }
-#menu1 span{
+
+#menu1 div{
   display: flex;
   margin:  auto;
   border-bottom: 1px solid   rgb(5, 255, 255);
@@ -104,7 +108,7 @@ h2{
   
 }
 
-.top-nav-bar li{
+.top-nav-bar i{
   list-style: none;
 }
 .top-nav-bar a{
