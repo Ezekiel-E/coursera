@@ -12,6 +12,9 @@
   overflow-x: hidden;
 }
 /* Global settings  */
+code{
+  color: #ff0000;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -645,13 +648,30 @@ footer a p:nth-of-type(1) {
 
 .v-long > div > img{
   margin: 10vh 10vw;
-   
 }
-.v-long > div:nth-of-type(1) > img{
+.h2-sm-center{
+  text-align: center;
+  font-size: small;
+  margin: 50%  auto -50% 10%;
+  padding: 10%;
+  width: fit-content;
+}
+.h2-lm-center{
+    text-align: center;
+    font-size: small;
+    margin:  -20% 25%;
+    padding: 10%;
+    width: fit-content;
+}
+.v-long > div:nth-of-type(1){
 width: 30%;
 }
-.v-long > div:nth-of-type(2) > img{
+.v-long > div:nth-of-type(2){
  
   width: 70%;
+}
+
+.v-long img{
+  width: 100%;
 }
 
