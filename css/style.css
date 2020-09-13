@@ -651,17 +651,16 @@ footer a p:nth-of-type(1) {
 }
 .h2-sm-center{
   text-align: center;
-  font-size: small;
-  margin: 50%  auto -50% 10%;
-  padding: 10%;
-  width: fit-content;
+ 
+  margin: -20% 20%;
+  padding: 30% 10%;
+  width: 100%;
 }
 .h2-lm-center{
     text-align: center;
-    font-size: small;
-    margin:  -20% 25%;
-    padding: 10%;
-    width: fit-content;
+    margin: -20% 20% ;
+    padding: 30% 10%;
+    width: 100%;
 }
 .v-long > div:nth-of-type(1){
 width: 30%;

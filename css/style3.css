@@ -349,4 +349,13 @@
 .g-iframe{
   height:125%;
 }
+
+.h2-sm-center{
+  font-size: 2rem;
+  margin: 5% 5% -35% 5%;
+}
+.h2-lm-center{
+  font-size: 2.rem;
+  margin: 5% 5% -35% 5%;
+}
 }
