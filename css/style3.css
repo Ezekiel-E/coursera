@@ -343,11 +343,13 @@
 .FC{
   min-width:280px ;
   max-width:280px ;
-  padding: 1%;
+  padding: 3%;
+  height: 650px;
+
 
 }
 .g-iframe{
-  height:125%;
+  height:134%;
 }
 
 .h2-sm-center{

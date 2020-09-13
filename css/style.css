@@ -625,18 +625,18 @@ footer a p:nth-of-type(1) {
   min-width:600px ;
   max-width:600px ;
   overflow: hidden;
-  height: 700px;
+  height: 730px;
   padding: 3%;
   padding-top: 100px;
   border-right:#b1d3c2 10px;
-  margin: 10vh auto;
+  margin: 10vh auto 0 auto;
 
 }
 
 .g-iframe{
   min-width:110%;
   max-width:110%;
-  height:112%;
+  min-height:118%;
   border:none;  
 }
 
