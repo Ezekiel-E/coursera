@@ -666,6 +666,10 @@ footer a p:nth-of-type(1) {
     padding: 30% 10%;
     width: 100%;
 }
+.wire-content{
+  width: 85%;
+  padding: 5%;
+}
 .v-long > div:nth-of-type(1){
 width: 30%;
 }
@@ -677,4 +681,6 @@ width: 30%;
 .v-long img{
   width: 100%;
 }
+
+
 
