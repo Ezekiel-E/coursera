@@ -672,6 +672,7 @@ footer a p:nth-of-type(1) {
 }
 .wire-content ul{
   margin-left: 10%;
+  width: 95%;
 }
 .v-long > div:nth-of-type(1){
 width: 30%;
