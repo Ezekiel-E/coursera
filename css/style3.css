@@ -205,6 +205,9 @@
   /* .SI img{
   
   } */
+  .skill-item{
+    height: auto;
+  }
   
   .skill-item:hover{
     transform: scale(1.1);
