@@ -12,6 +12,9 @@
   overflow-x: hidden;
 }
 /* Global settings  */
+.full-width{
+  width: 95%;
+}
 i{
   font-style: normal;
 }
