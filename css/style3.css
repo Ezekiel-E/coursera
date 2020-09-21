@@ -198,7 +198,9 @@
     
     font-size: 13px;
     line-height: 20px;
-    height: auto;
+  }
+  .SI.dis{
+    min-height: 65%;
   }
   /* .SI img{
   
