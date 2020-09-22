@@ -1,4 +1,8 @@
-  @media screen and (max-width:700px){
+@media screen and (max-width:500px){
+
+}
+
+@media screen and (max-width:700px){
   #navpress, #lab{
     display: inline-block;
   }
@@ -138,7 +142,7 @@
   }
   
   .top-header h1, .low-header h1{
-    font-size: 19vw;
+    font-size: 90px;
     line-height: 100%;
     
   }
@@ -155,7 +159,7 @@
 
   .top-header h3, .low-header h3{
     padding: 10px 20px;
-    font-size: 5vw;
+    font-size: 18px;
   }
   .top-header a, .low-header a{
     font-size: 3vw;
@@ -261,7 +265,7 @@
     }
     
     .bg2{
-    background-image: url("../images/b2a.jpg");
+    background-image: url("../images/bgimage2.jpg");
     background-repeat: no-repeat;
     } 
   
