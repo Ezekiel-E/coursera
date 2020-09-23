@@ -12,6 +12,9 @@
   overflow-x: hidden;
 }
 /* Global settings  */
+.bold{
+  font-weight: bolder;
+}
 .full-width{
   width: 100%;
 }
