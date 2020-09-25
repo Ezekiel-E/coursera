@@ -203,8 +203,8 @@
     font-size: 13px;
     line-height: 20px;
   }
-  .SI.dis{
-    min-height: 65%;
+  .SI-dis{
+    height: 65%;
   }
   /* .SI img{
   
