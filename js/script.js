@@ -16,7 +16,7 @@ AOS.init();
 $(document).ready(function(){
          
         
-  $('#mycarousel').carousel({ interval: 2000});
+$('#mycarousel').carousel({ interval: 6000});
 
 $('#carouselBtn').click(function(){
   
@@ -24,8 +24,8 @@ $('#carouselBtn').click(function(){
        $('#mycarousel').carousel('pause');
        $('#carouselBtn').children('i').removeClass('fa-pause');
        $('#carouselBtn').children('i').addClass('fa-play');
-   }
-   else if ($('#carouselBtn').children('i').hasClass('fa-play')){
+   }else 
+   if ($('#carouselBtn').children('i').hasClass('fa-play')){
        $('#mycarousel').carousel('cycle');
        $('#carouselBtn').children('i').removeClass('fa-play');
        $('#carouselBtn').children('i').addClass('fa-pause');
