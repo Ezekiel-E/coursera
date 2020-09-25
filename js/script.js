@@ -16,10 +16,9 @@ AOS.init();
 $(document).ready(function(){
          
         
-  $('#mycarousel').carousel({ interval: false});
+  $('#mycarousel').carousel({ interval: 2000});
 
 $('#carouselBtn').click(function(){
-       $('#mycarousel').carousel({ interval: 2000});
   
    if ($('#carouselBtn').children('i').hasClass('fa-pause')){
        $('#mycarousel').carousel('pause');
