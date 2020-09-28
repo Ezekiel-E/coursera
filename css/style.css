@@ -537,10 +537,8 @@ width: 700px;
   margin-bottom: 30px;
 } */
 .carousel {
-  background: transparent
-  
+  background: transparent; 
 }
-
 
 .carousel .carousel-item {
   height: 400px; 
@@ -551,15 +549,12 @@ width: 700px;
 /* .carousel .carousel-item:nth-of-type(8) h2 {
   font-size: 150%; 
 } */
-
-
 .carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 40%;
-  
 }
 
 .carousel .carousel-item .carousel-caption{
@@ -574,8 +569,6 @@ width: 700px;
   bottom: 0px;
   z-index: 1; 
 }
-
-
 
 .footer{
   min-height: 30vh;
@@ -606,9 +599,7 @@ footer a {
 }
 
 footer a:hover {
-  
   color:  rgb(238, 255, 255);
-  
 }
 
 footer a p {
@@ -617,8 +608,6 @@ footer a p {
 footer a p:nth-of-type(1) {
   margin-top: 10px;
 }
-
-
 
 /* Wireframe Design page settings */
 
@@ -649,8 +638,6 @@ footer a p:nth-of-type(1) {
   min-height:118%;
   border:none;  
 }
-
-
 
 .v-long{
   width: 100vw;
